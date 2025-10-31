@@ -4,25 +4,25 @@ const productos = [
         nombre: 'Aquamarine board',
         descripcion: '6’5 inch, color Acuamarino, tres aletas de diferentes tamaños, nada que un surfista no pueda controlar.',
         precio: 59.99,
-        imagen: 'img/img1.jpg'
+        imagen: 'img1.jpg'
     },
     {
         nombre: 'UP softboard',
         descripcion: '5’7 inch, eps de buena calidad, color azul, blanco y rojo, tres aletas ligeramente separadas.',
         precio: 69.99,
-        imagen: 'img/img2.jpg'
+        imagen: 'img2.jpg'
     },
     {
         nombre: 'Harley’s in hawaii',
         descripcion: '6’7 inch, color amarillo y blanco, tres aletas ligeramente separadas y bordes redondeados.',
         precio: 79.99,
-        imagen: 'img/img3.jpg'
+        imagen: 'img3.jpg'
     },
     {
         nombre: 'THURSO SURF Lancer',
         descripcion: '5’8 inch, hecha de madera de roble, color azul y blanco, dos aletas ligeramente separadas y con la cola recortada como cola de pez; viene con una correa y 2 tornillos de repuesto.',
         precio: 89.99,
-        imagen: 'img/img4.jpg'
+        imagen: 'img4.jpg'
     }
 ];
 
@@ -71,3 +71,4 @@ function renderizarCatalogo() {
 
 // ===== 4. Cargar al inicio =====
 window.onload = renderizarCatalogo;
+
